@@ -1,0 +1,278 @@
+	/*** FONTES DO GOOGLE*****************************************************
+	/ Atualizado: css: @import** - Nazaré do Piauí - 27/05/2024 11:41 *************/
+	.birthstone-bounce-regular {
+        font-family: "Birthstone Bounce", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 42px;
+      }
+          /*** <uniquifier>: Use a unique and descriptive class name
+          // <weight>: Use a value from 300 to 900***/
+      .montserrat{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>:400;
+        font-style: normal;
+      }
+      .black-ops-one-regular {
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+  
+  
+      /***https://marciapatriciam.w3spaces.com/
+      *****************************************************
+      / Atualizado: css: DIVGRID /  BODY *** - Nazaré do Piauí - 04/06/2024 16:55 *************/
+      .linha{ width: 100%; overflow: auto; padding: 5px; margin: 0px; display: flex; float: center; gap: 5px; }
+      .coluna{  padding: 5px; float: left; }
+      .flex{ display: flex;}
+      .col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	.col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
+          a{ text-decoration: none;}
+          ul li{ list-style: none;}
+          BODY{ background-color: #E0E8E6;} 
+          hr{ border: dashed 4px #5A339C; box-shadow: 1px 2px 4px #EEE3B0, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45; opacity: 0.6; }		
+      /***https://marciapatriciam.w3spaces.com/
+      *****************************************************
+      / Atualizado: css: header** - Nazaré do Piauí - 27/05/2024 11:41 *************/
+      #btn{
+          color: #E0E8E6; 
+          background-color: #5A339C;
+          box-shadow: 1px 2px 4px #EEE3B0, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45;
+          padding: 10px 45px 10px 45px;
+          border-radius: 50% 80% 50%;
+          margin-top: 2%;
+      }
+      #btn:hover{
+          box-shadow: inset 1px 2px 4px #EEE3B0, 2px 8px 28px #3B2F45, 3px 9px 48px #EEE3B0;
+          color: #EEE3B0;
+      }
+      #foto{
+          width: 320px;
+          border-radius: 50% 80% 50%;
+          position: absolute;
+          margin-left: 25%;
+          margin-top: -4%;
+          box-shadow: inset 1px 2px 14px #5A339C, 2px 8px 26px #3B2F45, 3px 24px 84px #EEE3B0;
+      }
+      #img-social{
+          width: 50px;
+          height: 50px;
+          border-radius: 32px;
+          box-shadow: inset 1px 2px 4px #fff, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45;
+      }
+      #img-social:hover{ box-shadow: inset 1px 2px 4px #3B2F45, 2px 8px 16px #3B2F45, 3px 24px 48px #EEE3B0;	}
+      .linha-de-estilo{
+          width: 97%;
+          margin-top: 4%;
+          height: 180px;
+          border: dotted 12px #5A339C;
+          box-shadow: inset 1px 2px 14px #5A339C, 2px 8px 26px #3B2F45, 3px 24px 84px #EEE3B0;
+      }
+      .menu ul li{ display: inline-block;}
+      .social{ margin-top: 3%;}
+      
+      /***https://marciapatriciam.w3spaces.com/
+      *****************************************************
+      / Atualizado: css: section** - Nazaré do Piauí - 27/05/2024 11:41 *************/
+      
+      #btn-arquivo{
+          width: 40%;
+          border-radius: 30%;
+          padding: 20px 45px 20px 45px;
+          box-shadow: inset 1px 2px 14px #fff, 2px 8px 26px #5A339C, 3px 24px 84px #5A339C;
+          background-color: #3B2F45;
+          align-items: right;
+      }
+      #btn-arquivo:hover{ box-shadow: inset 1px 2px 14px #fff, 2px 8px 26px #fff, 3px 24px 84px #5A339C; }
+      #id{
+          width: 319px;
+          height: 450px;
+          align-items: center;
+          float: center;
+      }
+      #img-artigo{
+          width: 225px;
+          border: dotted 12px #5A339C;
+          box-shadow: inset 1px 2px 14px #5A339C, 2px 8px 26px #3B2F45, 3px 24px 24px #EEE3B0;
+      }
+      .artigo p{ 
+          text-indent: 32px;
+          font-family: "Montserrat", sans-serif;
+          margin-top: 12%;
+      }
+      .artigo span h3{
+          position: absolute;
+          background-color: #3B2F45;
+          color: #EEE3B0;
+          font-size: 22px;
+          padding: 12px;
+      }
+      .bem-vindo{ margin-left: -20%;}
+      .bem-vindo p{ 
+          width: 90%; 
+          margin-left: -6%; 
+          font-family: "Montserrat", sans-serif; 
+      }
+      .section-01 .coluna{ margin-left: 10%; }
+      .section-artigo { margin-left: 5%;}
+      .sidebar{ margin-left: 123px; 	}
+      .sidebar img{
+          width: 350px;
+          height: 520px;
+      }
+      .titulo-site{
+          text-align: center;
+          font-size: 48px;
+          margin: 2% 0% 0% 15%;
+          color: #5A339C;
+          text-shadow: 5px 5px 0px #000, 10px 10px 0px #000;
+          opacity: .6;
+      }
+      /***https://marciapatriciam.w3spaces.com/
+      ****************************************************
+      / Atualizado: css: JANELA MODAL** - Nazaré do Piauí - 27/05/2024 11:41 *************/
+      canvas{
+          border: 1px solid #000;
+          background-color: #eee;
+        }
+      .janela-modal{
+          width: 90vw;
+          height: 90vh;
+          position: relative;
+          top: 0;
+          left: 0;
+          background-color: #5a339c86;
+          display: none;
+          align-items: center;
+          justify-content: center;
+          z-index: 999999;
+      }
+      .modal{
+          width: 80%;
+          min-width: 450px;
+          min-height: 200px;
+          background-color: #e0e8e6a1;
+          backdrop-filter: blur(10px);
+          padding: 50px;
+          border-radius: 20px;
+      }
+      .fechar{
+          position: absolute;
+          top: -10px;
+          right: -10px;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          border: 0;
+          background-color: #5A339C;
+          font-size: 20px;
+          cursor: pointer;
+          color: #fff;
+      }
+      .janela-modal.abrir{
+          display: flex;
+      }
+      
+      @keyframes abrirmodal {
+          from{
+              opacity: 0;
+              transform: translate3d(0, -20px, -5px);
+          }
+          to{
+              opacity: 1;
+              transform: translate3d(0, 0, 0);
+          }
+      }
+      .abrir .modal{
+          animation: abrirmodal 0.5s;
+      }
+  
+      /***https://marciapatriciam.w3spaces.com/
+      ****************************************************
+      / Atualizado: css: footer** - Nazaré do Piauí - 23/05/2024 *************/
+      .tempfoot span h3{
+          text-align: center;
+          color: #E0E8E6; 
+          background-color: #5A339C;
+      }
+      .tempfoot p{
+          text-align: center;
+          font-family: "Montserrat", sans-serif;
+          line-height: 10px;
+      }
+  
+      /***https://marciapatriciam.w3spaces.com/biografia_ma-santos.html
+      *****************************************************
+      / Atualizado: css: section** - Nazaré do Piauí - 23/05/2024 *************/
+      .answer{
+          padding: 15px;
+          font-family: "Montserrat", sans-serif;
+      }
+      .divisa{ border: solid 2px #3B2F45;} 	
+      .linha table{
+          margin-left: 40%;
+          margin-top: 10%;
+      }
+      .question{
+          font-family: "Black Ops One", system-ui;
+          padding: 20px;
+          font-size: 18px;
+          background-color: #3B2F45;
+          color: #EEE3B0;
+          border: solid 2px #EEE3B0;
+      }
+      .tito a{
+          font-family: "Black Ops One", system-ui;
+          font-size: 42px;
+          color: #5A339C;
+      }
+      .tito a:hover{  text-shadow: 5px 5px 0px #EEE3B0, 10px 10px 0px #000; 	}
+  /***https://marciapatriciam.w3spaces.com/multimidia.html
+      *****************************************************
+      / Atualizado: css: section** - Nazaré do Piauí - 28/05/2024 *************/
+      #img-canal{ 
+          width: 448px;
+          height: 255px;
+      }
+      #logo-titulo{
+          width: 80px;
+          border-radius: 30%;
+          margin: 0% 2% -2% 2%;
+      }
+      #video-player{
+          width: 40%;
+          margin-left: 28%;
+          margin-top: 2%;
+          border: dotted 12px #5A339C;
+          box-shadow: inset 1px 2px 14px #fff, 2px 8px 26px #5A339C, 3px 24px 84px #5A339C;
+      }
+      .faixa-de-titulos{
+          background-color: transparent;
+          box-shadow: inset 1px 2px 14px #fff, 2px 8px 26px #5A339C, 3px 24px 84px #5A339C;
+          margin-top: 12%;
+      }
+      .faixa-de-titulos span h3{
+          padding: 2px 5px 20px 10px;
+          font-family: "Black Ops One", system-ui;
+          margin-left: 30%;
+          font-size: 32px;
+      }
+      .video-canal span h4{
+          color: #3B2F45;
+          text-align: center;
+          font-size: 22px;
+      }
+      .wrapper-video{
+          display: flex;
+          flex-wrap: wrap;
+          width: 98%;
+          background-color: #3B2F45;
+          padding: 10px;
+      }
+      .video-canal{
+          background-color: #E0E8E6;
+          width: 30%;
+          margin: 5px;
+          margin-left: 2%;
+      }
