@@ -22,8 +22,8 @@ function initialize(){
   playerImg.src ='Object/cesta-games.png';
  
   // Seta os valores iniciais para as variáveis do jogador
-  playerHeight = 125;
-  playerWidth  = 150;
+  playerHeight = 175;
+  playerWidth  = 100;
   playerSpeed  = 20;
   playerPoints = 00;
   playerPosX   = (canvas.width/2)-(playerWidth/2);
