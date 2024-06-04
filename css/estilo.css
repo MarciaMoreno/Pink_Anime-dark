@@ -23,7 +23,11 @@
 
 	/***https://marciapatriciam.w3spaces.com/
 	*****************************************************
-	/ Atualizado: css: BODY** - Nazaré do Piauí - 27/05/2024 11:41 *************/
+	/ Atualizado: css: DIVGRID /  BODY *** - Nazaré do Piauí - 04/06/2024 16:55 *************/
+	.linha{ width: 100%; overflow: auto; padding: 5px; margin: 0px; display: flex; float: center; gap: 5px; }
+	.coluna{  padding: 5px; float: left; }
+	.flex{ display: flex;}
+	.col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	.col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
 		a{ text-decoration: none;}
 		ul li{ list-style: none;}
 		BODY{ background-color: #E0E8E6;} 
