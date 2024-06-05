@@ -53,31 +53,19 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
 	background-color: #EEE3B0;
 	color: #5A339C;
 }
-#foto{ 
-	width: 320px;
-	border-radius: 50% 80% 50%;
-	margin-left: 5%;
-	margin-top: -4%;
-	box-shadow: inset 1px 2px 14px #5A339C, 2px 8px 26px #3B2F45, 3px 24px 84px #EEE3B0;
-}
 #img-social{
 	width: 50px;
 	height: 50px;
 	border-radius: 32px;
 	box-shadow: inset 1px 2px 4px #fff, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45;
 }
-#img-social:hover{ box-shadow: inset 1px 2px 4px #3B2F45, 2px 8px 16px #3B2F45, 3px 24px 48px #EEE3B0;	}
-.linha-efeito{
-	width: 98%;
-	margin-top: 4%;
-	height: 180px;
-	border: dotted 12px #5A339C;
-	box-shadow: inset 1px 2px 14px #5A339C, 2px 8px 26px #3B2F45, 3px 24px 84px #EEE3B0;
+#img-social:hover{ background-color: #EEE3B0; box-shadow: inset 1px 2px 4px #3B2F45, 2px 8px 16px #3B2F45, 3px 24px 48px #EEE3B0;	}
+.tito-site{
+	font-family: "Black Ops One", system-ui;
+	font-size: 48px;
+	color: #301D42;
+	text-shadow: 5px 5px 0px #EEE3B0, 7px 7px 0px #3B2F45;
 }
-.menu{ margin: 8% 0% 15% 12%;}
-.menu ul li{ display: inline-block;  }
-.retrato{ margin-left: 10%;}
-.sobremim { margin-right: 15px ;}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <section> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 
