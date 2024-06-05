@@ -1,12 +1,30 @@
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-
+.birthstone-bounce-regular {
+	font-family: "Birthstone Bounce", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 42px;
+  }
+	  /*** <uniquifier>: Use a unique and descriptive class name
+	  // <weight>: Use a value from 300 to 900***/
+  .montserrat{
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>:400;
+	font-style: normal;
+  }
+  .black-ops-one-regular {
+	font-family: "Black Ops One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+  }
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / DIVGRID *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-.linha{ width: 100%; overflow: auto; padding: 5px; margin: 0px; display: flex; float: center; gap: 5px; flex-wrap: wrap;}
+.linha{ width: 100%; overflow: auto; padding: 5px; display: flex; float: center; gap: 5px; flex-wrap: wrap;}
 .linha > div{ flex: 1 1 200px; justify-content: space-between;}
-.coluna{  padding: 5px; float: left;  }
-.flex{ display: flex;}
+.coluna{  padding: 5px; float: left; }
+.flex{ display: flex; flex-wrap: wrap; } .flex > div{ flex: 1 1 200px; justify-content: space-between; }
 .col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	.col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
 
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
@@ -23,14 +41,25 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
 	color: #E0E8E6; 
 	background-color: #5A339C;
 	box-shadow: 1px 2px 4px #EEE3B0, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45;
-	padding: 30px 45px 30px 45px;
+	padding: 30px 35px 30px 35px;
 	border-radius: 50% 80% 50%;
-	width: 200px;
-	
+	width: 200px;	
+	font-family: "Montserrat", sans-serif;
+	font-size: 22px;
+	margin: 2%;
 }
 #btn:hover{
 	box-shadow: inset 1px 2px 4px #EEE3B0, 2px 8px 28px #3B2F45, 3px 9px 48px #EEE3B0;
-	color: #EEE3B0;
+	background-color: #EEE3B0;
+	color: #5A339C;
+}
+#foto{ 
+	width: 320px;
+	border-radius: 50% 80% 50%;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: -4%;
+	box-shadow: inset 1px 2px 14px #5A339C, 2px 8px 26px #3B2F45, 3px 24px 84px #EEE3B0;
 }
 #img-social{
 	width: 50px;
@@ -39,7 +68,17 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
 	box-shadow: inset 1px 2px 4px #fff, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45;
 }
 #img-social:hover{ box-shadow: inset 1px 2px 4px #3B2F45, 2px 8px 16px #3B2F45, 3px 24px 48px #EEE3B0;	}
-.menu ul li{ display: inline-block;}
+.linha-efeito{
+	width: 98%;
+	margin-top: 4%;
+	height: 180px;
+	border: dotted 12px #5A339C;
+	box-shadow: inset 1px 2px 14px #5A339C, 2px 8px 26px #3B2F45, 3px 24px 84px #EEE3B0;
+}
+.menu{ margin: 8% 0% 15% 12%;}
+.menu ul li{ display: inline-block;  }
+.retrato{ margin-left: 10%;}
+.sobremim { margin-right: 15px ;}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <section> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 
