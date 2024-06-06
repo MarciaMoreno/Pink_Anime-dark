@@ -22,8 +22,6 @@ Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 04/06/2024
   }
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / DIVGRID *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-.linha{ width: 100%; overflow: auto; padding: 5px; display: flex; float: center; gap: 5px; flex-wrap: wrap;}
-.linha > div{ flex: 1 1 200px; justify-content: center;}
 .coluna{  padding: 5px; float: left; }
 .flex{ display: flex; flex-wrap: wrap; } .flex > div{ flex: 1 1 200px; justify-content: center }
 .col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	.col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
