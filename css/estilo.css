@@ -35,7 +35,9 @@ Atualização CSS / BODY *** Nazaré do Piauí - Brasil - 04/06/2024*********/
   	h1,h2,h3,h4 { text-align: center; }
 	div > #foto{ display: block; margin-left: auto; margin-right: auto;}
 	p{ font-family: "Montserrat", sans-serif; font-size: 18px;}
-/***https://marciapatriciam.w3spaces.com/
+	.tito-nome{ background-color: #3B2F45; color: #EEE3B0; padding: 10px;}
+
+	/***https://marciapatriciam.w3spaces.com/
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 #btn{
@@ -74,19 +76,10 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
 	box-shadow: inset 1px 2px 4px #fff, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45;
 }
 
-.tito-nome{ background-color: #3B2F45; color: #EEE3B0; padding: 10px;}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <section> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 
-#banner{ width: 370px; height: 470px; }
-#img-artigo{ width: 220px; height: 220px;}
-.bemvindo{ padding: 30px;}
-.box-game{ 
-	flex-wrap: wrap;
-	border: dashed 12px #5A339C; 
-	box-shadow: inset 1px 2px 4px #fff, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45;
-}
-#tito-site{ width: 95%; margin: 5% 0% 5% 0%;}
+
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <footer> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 	footer p{ text-align: center;}
