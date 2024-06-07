@@ -32,8 +32,9 @@ Atualização CSS / BODY *** Nazaré do Piauí - Brasil - 04/06/2024*********/
     a{ text-decoration: none;}
     ul li { list-style: none;}
     BODY{ background-color: #E0E8E6;}
+    header{ margin: 0 auto;}
     figcaption { text-align: justify; font-size: 18px; text-indent: 32px;}
-    img{ display: block; margin-left: auto; margin-right: auto;}
+
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 #btn{
@@ -41,29 +42,49 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
     color: #EEE3B0;
     font-family: "Montserrat", sans-serif;
     font-size: 28px;
-    width: 222px;
-    padding: 20px 20px;
-    border-radius: 122px 50px 122px;
-    margin: 2px;
-    box-shadow: 2px 4px 12px #3B2F45, 2px 18px 52px #3B2F45;
+    width: 190px;
+    padding: 20px 5px;
+    border-radius: 124px 202px 202px;
+    margin-top: 2px;
+    box-shadow: inset 2px 8px 24px #5A339C, 9px 29px 19px #3B2F45;
 }
 #btn:hover{
     background-color: #EEE3B0;
     color: #5A339C;
 }
 #foto{
-    width: 600px;
-    border-radius: 425px 300px 425px;
+    width: 342px;
+    height: 352px;
+    border-radius: 124px 202px 202px;
+    box-shadow: inset 2px 28px 24px #5A339C, 9px 29px 19px #3B2F45;
 }    
 #img-social{ 
         width: 50px;
         height: 50px;
         border-radius: 32px;
-        box-shadow: inset 1px 2px 4px #fff, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45; 
+        box-shadow: inset 2px 8px 14px #3B2F45, 9px 29px 19px #3B2F45;
     }
-#img-social:hover{ background-color: #EEE3B0; box-shadow: 2px 18px 42px #fff ;}
-.menu{ margin-left: 10%;}
+#img-social:hover{ background-color: #EEE3B0; box-shadow: inset 2px 8px 4px #5A339C, 9px 29px 19px #3B2F45;}
+.nome{ font-size: 52px; color: #5A339C;}
+.menu{ margin: 10% 0% 5% 0%;}
+.menu > ul{ margin-left: 15%; align-items:center; justify-content: space-between;}
 .menu ul li{ display: inline-block;}
+.retrato{ 
+   background-image: url("../Objeto/teste-base1.png");
+   background-repeat: no-repeat;
+   background-position: 100%;
+   text-align: center;
+   border-image: 3px 9px 39px #5A339C, 0px 9px 119px #3B2F45;
+}
+.retrato p{ 
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    background-color: #3B2F45;
+    color: #EEE3B0;
+    padding: 15px;
+}
+.retrato a { color: #EEE3B0;}
+.retrato a:hover{ color: #fff;}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <section> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 #baner-img{ width: 250px; height: 200px;}
