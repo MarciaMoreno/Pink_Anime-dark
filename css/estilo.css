@@ -1,16 +1,47 @@
 
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 04/06/2024*********/
+.birthstone-bounce-regular {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+}
+    /*** <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 300 to 900***/
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>:400;
+    font-style: normal;}
+.black-ops-one-regular {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 tualização CSS / DIVGRID *** Nazaré do Piauí - Brasil - 04/06/2024*********/
+    .flex{ flex-wrap: wrap; display: flex; max-width: 100%; margin: 0 auto;}
+    .flex > div{ flex: 1 1 192px;}
 
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / BODY *** Nazaré do Piauí - Brasil - 04/06/2024*********/
-
+    a{ text-decoration: none;}
+    ul li { list-style: none;}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
+#foto{
 
+}    
+div > #foto{ display: block; margin-left: auto; margin-right: auto;}
+#img-social{ 
+        width: 50px;
+        height: 50px;
+        border-radius: 32px;
+        box-shadow: inset 1px 2px 4px #fff, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45; 
+    }
+    #img-social:hover{ background-color: #EEE3B0;}
 
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <section> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
