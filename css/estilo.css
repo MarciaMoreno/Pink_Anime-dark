@@ -23,7 +23,7 @@ Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 04/06/2024
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 tualização CSS / DIVGRID *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 .flex{ flex-wrap: wrap; display: flex; max-width: 100%; margin: 0 auto;}
-.flex > div{ flex: 1 1 192px;}
+.flex > div{ flex: 1 1 450px;}
 .col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	
 .col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
 
@@ -32,7 +32,7 @@ Atualização CSS / BODY *** Nazaré do Piauí - Brasil - 04/06/2024*********/
     a{ text-decoration: none;}
     ul li { list-style: none;}
     BODY{ background-color: #E0E8E6;}
-    figcaption { text-align: justify;}
+    figcaption { text-align: justify; font-size: 18px; text-indent: 32px;}
     img{ display: block; margin-left: auto; margin-right: auto;}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
@@ -47,9 +47,10 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
         box-shadow: inset 1px 2px 4px #fff, 2px 8px 16px #3B2F45, 3px 24px 24px #3B2F45; 
     }
 #img-social:hover{ background-color: #EEE3B0;}
-
+.menu ul li{ display: inline-block;}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <section> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
+#baner-img{ width: 250px; height: 200px;}
 #book{ width: 300px; height: 450px;}
 #img-site { width: 80%;}
 #sidebar{ width: 300px; height: 410px;}
