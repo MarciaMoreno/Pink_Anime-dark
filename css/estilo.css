@@ -130,4 +130,17 @@ div > #sidebar{ display: block; margin-left: auto; margin-right: auto;}
     font-size: 32px;
 }
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
-Atualização CSS / <footer> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
+Atualização CSS / <footer> *** Nazaré do Piauí - Brasil - 04/06/2024******
+
+    Não houve declarações
+
+**************************************************************************************************************************************************************/
+/***index.html - DIRETORIO: Pink_Anime-dark*******************************************
+Atualização CSS / multimidia.html *** Nazaré do Piauí - Brasil - 04/06/2024*********/
+
+#gif{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
