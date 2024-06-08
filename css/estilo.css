@@ -71,7 +71,7 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
         box-shadow: inset 2px 4px 10px #3B2F45, 9px 29px 19px #3B2F45;
     }
 #img-social:hover{ background-color: #EEE3B0; box-shadow: inset 2px 2px 4px #5A339C, 9px 9px 19px #fff; border: dashed 8px #EEE3B0;}
-.nome{ font-size: 72px; color: #5A339C;}
+.nome{ font-size: 72px; color: #5A339C; word-spacing: 12px;}
 .menu{ margin: 5% 0% 5% 0%;}
 .menu > ul{ margin-left: 10%; align-items:center; justify-content: space-between;}
 .menu ul li{ display: inline-block;}
@@ -82,6 +82,7 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
    text-align: center;
    border-image: 3px 9px 39px #5A339C, 0px 9px 119px #3B2F45;
    margin: 0% 0% 6% 0%;
+   
 }
 .retrato p{ 
     font-family: "Montserrat", sans-serif;
