@@ -12,7 +12,7 @@ Atualização CSS / FONTES DO GOOGLE *** Nazaré do Piauí - Brasil - 04/06/2024
 .montserrat{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>:400;
+    font-weight: 400;
     font-style: normal;}
 .black-ops-one-regular {
     font-family: "Black Ops One", system-ui;
@@ -33,8 +33,8 @@ Atualização CSS / BODY *** Nazaré do Piauí - Brasil - 04/06/2024*********/
     ul li { list-style: none;}
     BODY{ background-color: #E0E8E6;}
     header{ margin: 0 auto;}
-    figcaption { text-align: justify; font-size: 18px; text-indent: 32px;}
-
+    figcaption { text-align: justify; font-size: 18px; text-indent: 32px; font-family: "Montserrat", sans-serif;}
+    hr{ border: dashed 18px #5A339C; opacity: .6;}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 #btn{
@@ -45,12 +45,15 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
     width: 190px;
     padding: 20px 5px;
     border-radius: 124px 202px 202px;
-    margin-top: 2px;
+    margin-top: 3px;
+    border: dashed 8px #E0E8E6;
     box-shadow: inset 2px 8px 24px #5A339C, 9px 29px 19px #3B2F45;
+    align-items: center;
 }
 #btn:hover{
     background-color: #EEE3B0;
-    color: #5A339C;
+    color: #5A339C; 
+    border: dashed 8px #EEE3B0;   
 }
 #foto{
     width: 342px;
@@ -62,12 +65,13 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
         width: 50px;
         height: 50px;
         border-radius: 32px;
-        box-shadow: inset 2px 8px 14px #3B2F45, 9px 29px 19px #3B2F45;
+        border: dotted 8px #5A339C;
+        box-shadow: inset 2px 4px 10px #3B2F45, 9px 29px 19px #3B2F45;
     }
-#img-social:hover{ background-color: #EEE3B0; box-shadow: inset 2px 8px 4px #5A339C, 9px 29px 19px #3B2F45;}
-.nome{ font-size: 52px; color: #5A339C;}
-.menu{ margin: 10% 0% 5% 0%;}
-.menu > ul{ margin-left: 15%; align-items:center; justify-content: space-between;}
+#img-social:hover{ background-color: #EEE3B0; box-shadow: inset 2px 2px 4px #5A339C, 9px 9px 19px #fff; border: dashed 8px #EEE3B0;}
+.nome{ font-size: 72px; color: #5A339C;}
+.menu{ margin: 5% 0% 5% 0%;}
+.menu > ul{ margin-left: 10%; align-items:center; justify-content: space-between;}
 .menu ul li{ display: inline-block;}
 .retrato{ 
    background-image: url("../Objeto/teste-base1.png");
@@ -75,13 +79,15 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
    background-position: 100%;
    text-align: center;
    border-image: 3px 9px 39px #5A339C, 0px 9px 119px #3B2F45;
+   margin: 0% 0% 6% 0%;
 }
 .retrato p{ 
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    background-color: #3B2F45;
+    background-color: #301D42;
     color: #EEE3B0;
     padding: 15px;
+    border-radius: 32px;
 }
 .retrato a { color: #EEE3B0;}
 .retrato a:hover{ color: #fff;}
@@ -89,7 +95,30 @@ Atualização CSS / <header> *** Nazaré do Piauí - Brasil - 04/06/2024********
 Atualização CSS / <section> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 #baner-img{ width: 250px; height: 200px;}
 #book{ width: 300px; height: 450px;}
-#img-site { width: 80%;}
+#icon{ width: 42px; height: 42px; border-radius: 12px;}
+#img-site { width: 80%; margin-left: 10%; border: dashed 10px #E0E8E6}
+#img-site:hover { box-shadow: inset 2px 4px 10px #3B2F45, 9px 29px 49px #3B2F45;}
+#img-site figcaption{  font-family: "Montserrat", sans-serif; font-size: 18px;}
+a #img-medibang{ border: dotted 14px #5A339C;}
+a #img-medibang:hover { box-shadow: inset 2px 4px 10px #3B2F45, 9px 29px 49px #3B2F45; }
 #sidebar{ width: 300px; height: 410px;}
+#tito-profile{
+    width: 100%;
+}
+.book{ text-align: center; align-items: center;}
+.book figcaption{ margin-left: 11%;}
+.book figcaption:hover{ text-decoration: underline;}
+.span-tito{ 
+    font-family: "Black Ops One", system-ui;
+    font-size: 48px;
+    color: #5A339C;
+    padding: 20px;
+    word-spacing: 8px;
+    border-radius: 12px;
+    margin-left: 4%;
+    text-align: center;
+    text-shadow: 5px 5px 0px #EEE3B0, 7px 7px 0px #3B2F45;
+    opacity: .6;
+}
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / <footer> *** Nazaré do Piauí - Brasil - 04/06/2024*********/
