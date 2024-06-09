@@ -152,9 +152,13 @@ Atualização CSS / multimidia.html *** Nazaré do Piauí - Brasil - 04/06/2024*
 /***index.html - DIRETORIO: Pink_Anime-dark*******************************************
 Atualização CSS / sobre-mim.html *** Nazaré do Piauí - Brasil - 04/06/2024*********/
 table{  width: 90%;}
-#logo-GiHub{ width: 200px;}
-table{ padding: 20px;}
-tr:nth-child(even) {background-color: #C5AAFF;}
+#logo-GiHub{ width: 200px; margin-left: 10%;}
+table{ 
+    padding: 20px;
+    border: dashed 8px #B6BDBB;
+}
+tr, td{ border: solid 1px #6C706F;}
+tr:nth-child(even) {background-color: #B6BDBB;}
 .question {
     font-family: "Black Ops One", system-ui;
     padding: 15px;
